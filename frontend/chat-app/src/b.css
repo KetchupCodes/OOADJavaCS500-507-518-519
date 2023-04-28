@@ -1,0 +1,65 @@
+/* Set a consistent font family and font size for the application */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Add padding to the message container to prevent content from being too close to the edges */
+  .messageContainer {
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Use a solid color instead of a background image to make the design more professional */
+  .messageContainer {
+    background-color: #f8f8f8;
+  }
+  
+  /* Use a logo or icon instead of bolding the navbar brand text */
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  /* Use a light color for the jumbotron background and adjust the opacity to make the text more legible */
+  .jumbotron {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Add a border to form inputs to make them stand out more */
+  .form-group input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+    outline: none;
+  }
+  
+  .form-group select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+  }
+  
+  /* Use a light gray color for list items to differentiate them from the background */
+  .list-group-item {
+    background-color: #f5f5f5;
+  }
+  
+  /* Use a darker gray color for the footer background and add a margin to separate it from the rest of the content */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
